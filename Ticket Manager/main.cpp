@@ -31,7 +31,17 @@ int ShowData(){
 }
 
 int tampilanAwal(){
-
+        system("CLS");
+        cout << "Program pencatatan Ticket" << endl
+             << "===========================" << endl
+             << "Created by Kelompok G" << endl
+             << "For Mini Project UAS" << endl << endl
+             << "Main Menu" << endl << endl
+             << "1. Tambah Data" << endl
+             << "2. Cari Data" << endl
+             << "3. Lihat Data" << endl << endl
+             << "Masukkan Kode (E) untuk Mengakhiri Program" << endl
+             << "Masukkan Kode : ";
 }
 //== END Function Created by Moch. Fiqih B (Traverse, Menu, Tampilan Awal)
 

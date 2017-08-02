@@ -18,7 +18,16 @@ string Ticket, Asal, Tujuan, jenis;
 
 //== BEGIN Function Created by Moch. Fiqih B (Traverse, Menu, Tampilan Awal)
 int ShowData(){
-// Copas DISINI Fungsinya.
+    system("CLS");
+    for(int i=0; i<NoID+1; i++){
+        for(int y=0; y<gridRow; y++){
+            cout << MasterData[i][y] << "\t|";
+        }
+        cout << endl;
+        if (i>0){
+            MasterData[i][0]=i+1;
+        }
+    }system("pause");
 }
 
 int tampilanAwal(){

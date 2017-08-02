@@ -171,7 +171,7 @@ int CariData(){
                                 tampilanAwal();
                             }else{
                                 for (int y=x; y<=NoID; y++){
-                                        int noNomer= y;
+                                        int noNomer= x;
                                         stringstream sss;
                                         sss << noNomer;
                                         string nonumber = sss.str();

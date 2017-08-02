@@ -194,16 +194,16 @@ int main()
         cin >> Menu;
         switch(Menu){
             case '1':
-                
+                InsertData();
                 break;
             case '2':
-                
+                CariData();
                 break;
             case '3':
-                
+                ShowData();
                 break;
-            case 'E'||'e':
-                return 0;
+          //  case 'E'||'e':
+          //      return 0;
         }
-    }while (Menu!='E');
+    }while (Menu!='E'||'e');
 }

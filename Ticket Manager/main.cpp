@@ -182,9 +182,8 @@ int CariData(){
                                     MasterData[y][5]=MasterData[y+1][5];
                                     MasterData[y][6]=MasterData[y+1][6];
                                     MasterData[y][0]=nonumber;
-                                }NoID=NoID-1;system("CLS");cout << "Data Berhasil Dihapus";system("pause");tampilanAwal();
+                                }NoID=NoID-1;system("CLS");cout << "Data Berhasil Dihapus" << endl;system("pause");tampilanAwal();
                             }
-                        break;
                         break;
 // == END Function Created by Gabriella Stefany (UPDATE dan DELETE)
 
